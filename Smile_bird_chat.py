@@ -10,7 +10,8 @@ replies = {
     "Why does my tooth hurt?": "It could be due to cavities, sensitivity, or even an infection. It's best to get it checked by a dentist.",
     "What can I do to relieve tooth pain at home?": "Try a saltwater rinse: mix 1/2 teaspoon of salt in a glass of warm water and rinse for 30 seconds.",
     "When should I see a dentist for a toothache?": "If the pain lasts more than a day or is severe, please visit us during working hours: 9 AM to 6 PM, Monday to Friday.",
-    "Where are you located": "We are located at CIIT TBI RCOEM."
+    "Where are you located": "We are located at CIIT TBI RCOEM.",
+    "We as a bird people":"We are very serious if any person meddles with birds we kill those people"
 }
 
 @app.route("/")
@@ -25,3 +26,4 @@ def chat():
 
 if __name__ == "__main__":
     app.run(debug=True, port=5001)
+
